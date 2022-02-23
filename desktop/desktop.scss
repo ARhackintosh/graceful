@@ -19,8 +19,9 @@ img.avatar {
 
 .d-header {
   height: 70px;
-  backdrop-filter: blur(10px);
-  background: #008a2e;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);  
+  background: linear-gradient(0.75turn, #1d054870, #7c1f7dac);
   box-shadow: 0 3px 3px rgba(100, 100, 100, 0.13);
   .panel {
     padding: 6px 0 0 0;
@@ -51,7 +52,7 @@ img.avatar {
     right: 85px;
   }
   #site-logo {
-    max-height: 35px !important;
+    max-height: 60px !important;
   }
   
   .wrap {
